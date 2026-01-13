@@ -108,6 +108,8 @@ streamlit run app.py
 
 http://localhost:8501
 
+---
+
 ##🤖 Chatbot API Configuration (Important)
 
 The chatbot feature uses an external API.
@@ -137,15 +139,21 @@ CHATBOT_API_KEY = "your_api_key_here"
 
 ❌ Chatbot feature will be disabled
 
+---
+
 ##⚠️ Disclaimer
 
 This application is developed only for educational and academic purposes.
 It is not a substitute for professional medical advice or diagnosis.
 
+---
+
 ##👩‍💻 Author
 
 **Shaistha Sulthana**
 Mini Project – *Health Assistant: Multiple Disease Prediction with AI Chatbot*
+
+---
 
 ##🌟 Future Enhancements
 
