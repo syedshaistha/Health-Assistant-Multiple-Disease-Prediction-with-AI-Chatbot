@@ -71,12 +71,12 @@ http://localhost:8501
 
 ---
 
-##🤖 Chatbot API Configuration (Important)
+## 🤖 Chatbot API Configuration (Important)
 
 The chatbot feature uses an external API.
 For security reasons, API keys are NOT included in this repository.
 
-###🔐 Option 1: Using .env File (Local Setup)
+### 🔐 Option 1: Using .env File (Local Setup)
 
 Create a .env file in the root directory:
 ```bash
@@ -84,7 +84,7 @@ CHATBOT_API_KEY=your_api_key_here
 
 Ensure .env is added to .gitignore.
 
-###🔐 Option 2: Using Streamlit Secrets
+### 🔐 Option 2: Using Streamlit Secrets
 
 Create the file:
 ```bash
@@ -102,21 +102,21 @@ CHATBOT_API_KEY = "your_api_key_here"
 
 ---
 
-##⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This application is developed only for educational and academic purposes.
 It is not a substitute for professional medical advice or diagnosis.
 
 ---
 
-##👩‍💻 Author
+## 👩‍💻 Author
 
 **Shaistha Sulthana**
 Mini Project – *Health Assistant: Multiple Disease Prediction with AI Chatbot*
 
 ---
 
-##🌟 Future Enhancements
+## 🌟 Future Enhancements
 
 - More disease prediction modules
 - Advanced chatbot responses
