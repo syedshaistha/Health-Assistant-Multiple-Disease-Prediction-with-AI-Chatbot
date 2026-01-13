@@ -83,17 +83,17 @@ git clone https://github.com/<your-username>/Health-Assistant-Multiple-Disease-P
 cd Health-Assistant-Multiple-Disease-Prediction-with-AI-Chatbot
 
 ### 🔹 Step 2: (Optional) Create a Virtual Environment
-
+```bash
 python -m venv venv
 
 Activate it:
 
-Windows
-
+**Windows**
+```bash
 venv\Scripts\activate
 
-Linux / macOS
-
+**Linux / macOS**
+```bash
 source venv/bin/activate
 
 ### 🔹 Step 3: Install Dependencies
@@ -108,29 +108,27 @@ streamlit run app.py
 
 http://localhost:8501
 
-###🤖 Chatbot API Configuration (Important)
+##🤖 Chatbot API Configuration (Important)
 
 The chatbot feature uses an external API.
 For security reasons, API keys are NOT included in this repository.
 
-##🔐 Option 1: Using .env File (Local Setup)
+###🔐 Option 1: Using .env File (Local Setup)
 
 Create a .env file in the root directory:
-
+```bash
 CHATBOT_API_KEY=your_api_key_here
-
 
 Ensure .env is added to .gitignore.
 
-##🔐 Option 2: Using Streamlit Secrets
+###🔐 Option 2: Using Streamlit Secrets
 
 Create the file:
-
+```bash
 .streamlit/secrets.toml
 
-
 Add:
-
+```bash
 CHATBOT_API_KEY = "your_api_key_here"
 
 📌 Without Configuring the API Key
@@ -139,17 +137,17 @@ CHATBOT_API_KEY = "your_api_key_here"
 
 ❌ Chatbot feature will be disabled
 
-###⚠️ Disclaimer
+##⚠️ Disclaimer
 
 This application is developed only for educational and academic purposes.
 It is not a substitute for professional medical advice or diagnosis.
 
-###👩‍💻 Author
+##👩‍💻 Author
 
-Shaistha Sulthana
-Mini Project – Health Assistant: Multiple Disease Prediction with AI Chatbot
+**Shaistha Sulthana**
+Mini Project – *Health Assistant: Multiple Disease Prediction with AI Chatbot*
 
-###🌟 Future Enhancements
+##🌟 Future Enhancements
 
 - More disease prediction modules
 - Advanced chatbot responses
