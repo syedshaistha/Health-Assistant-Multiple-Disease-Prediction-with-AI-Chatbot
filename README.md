@@ -36,45 +36,6 @@ The application is built using **Python** and **Streamlit**.
 
 ---
 
-## 📂 Project Structure
-
-Health-Assistant-Multiple-Disease-Prediction-with-AI-Chatbot/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── saved_models/
-│ ├── diabetes_model.pkl
-│ ├── heart_model.pkl
-│ └── parkinsons_model.pkl
-│
-├── collab_files_to_train_models/
-│ ├── diabetes.py
-│ ├── heart.py
-│ └── parkinsons.py
-│
-├── datasets/
-│ ├── diabetes.csv
-│ ├── heart.csv
-│ └── parkinsons.csv
-│
-├── MediChat/
-│ └── app.py
-│
-├── src/
-│ └── init.py
-│
-├── static/
-│ └── style.css
-│
-└── templates/
-└── chatbot.html
-
----
-
 ## 🚀 How to Clone and Run the Project
 
 ### 🔹 Step 1: Clone the Repository
